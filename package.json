@@ -1,0 +1,23 @@
+{
+  "name": "pagl-india",
+  "version": "1.0.0",
+  "description": "The API for the PAGL India  app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.austin.utexas.edu/caet-saga/PAGL-India-DoctorApp-API.git"
+  },
+  "author": "Thomas Schwalen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2"
+  }
+}
